@@ -18,6 +18,35 @@ public class FirstClass {
         if((topScore>80)||(secondTopScore<90)){
            System.out.println("either or both conditions are true");
         }
-    }
-}
+        //Assignment operator vs equals to operator
+        int newValue=50;
+        if(newValue==50){
+            System.out.println("this is true");
+        }
+        boolean isCar =false;
+        if(!isCar){
+            System.out.println("this is correct");
+
+        }
+        if(!isCar){
+            System.out.println("this is equivalent to  isCar =false");
+
+        if(isCar==true){
+            System.out.println("this is not supposed to happen yani condition wrong");
+
+        }
+
+        if(isCar){
+            System.out.println("this i same as isCar ==true ");
+
+        }
+            if(isCar=true){
+                System.out.println("this is not supposed to happen  ");
+
+            }
+
+
+        }
+    }}
+
 
