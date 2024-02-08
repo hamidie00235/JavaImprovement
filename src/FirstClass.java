@@ -44,9 +44,26 @@ public class FirstClass {
                 System.out.println("this is not supposed to happen  ");
 
             }
+// ternary opeator?:
+       String capital="ndjamena";
+            boolean isTchad =capital=="ndjamena"?true:false;
+            if(isTchad){
+                System.out.println("ndjamena is the capital of chad");
 
+            }
+            //operator precedence and operator challenge
+            double var1 =20.00d;
+            double var2=80.00d;
+            double myValuesTotal =(var1+var2)*100.00d;
+            System.out.println("myValuesTotal="+myValuesTotal);
+            double theRemainder=myValuesTotal%40.00d;
+            System.out.println("the remainder = "+theRemainder);
+            boolean isNoRemainder=(theRemainder==0) ? true:false;
+            System.out.println("isNoRemainder = " +isNoRemainder);
 
+            if(!isNoRemainder){
+            System.out.println("Got some remainders");
         }
-    }}
+    }}}
 
 
