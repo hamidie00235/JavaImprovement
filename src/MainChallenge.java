@@ -12,19 +12,25 @@ public class MainChallenge {
 //            System.out.println("Your final score is "+finalScore);
 
 
-        //Methods in java
-        calculationScore(true,5,8,100);
+//        //Methods in java
+//        calculationScore(true,5,8,100);
+//
+//        calculationScore(true,10000,8,200);
+//
+//    }
+//        public static int calculationScore(boolean gameOver,int score,int levelCompleted,int bonus){
+//           int finalScore = score;
+//            if(gameOver){
+//                finalScore += (levelCompleted*bonus);
+//                finalScore +=1000;
+//                System.out.println("your score is "+finalScore);
 
-        calculationScore(true,10000,8,200);
 
-    }
-        public static void calculationScore(boolean gameOver,int score,int levelCompleted,int bonus){
-           int finalScore = score;
-            if(gameOver){
-                finalScore += (levelCompleted*bonus);
-                finalScore +=1000;
-                System.out.println("your score is "+finalScore);
+
+
             }
+
+
         }
-    }
+
 
